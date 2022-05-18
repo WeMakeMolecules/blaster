@@ -11,5 +11,7 @@ A simple script to blast a query against the database select an e-value and scor
 
 # rastidstonames.pl
 Change the labels from RAST protein files into nice taxonomic names indexed in the RAST.IDs file (we use these as a standard for bacteria (annotated in RAST and fungal (annotated with the tools in the FUN-GIT repository ) genomes.
+# genbankidstolabel.pl
+Same than rastidstonames but for genbank protein labels
 
 viva la perl
