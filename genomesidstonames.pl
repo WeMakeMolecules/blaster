@@ -7,8 +7,8 @@ if ($line=~/>fig:/){
         $rastname="$2";
         $peg="$3";
         $peg=~s/\.//g;
-        open RASTID, $ARGV[1] or die "i cant see the RAST.IDs file \n";
-        while ($id=<RASTID>){
+        open GENOMESID, $ARGV[1] or die "i cant see the GENOMES.IDs file \n";
+        while ($id=<GENOMESID>){
                 if ($id=~/$rastname/){
                 $id=~/(.+)\t(.+)\t(.+)\t(.+)/;
                 $names="$3";
